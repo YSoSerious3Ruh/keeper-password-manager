@@ -1,0 +1,15 @@
+# Language detection rules
+# Project-specific overrides
+# Default behavior
+*.tsx linguist-detectable
+*.jpeg binary
+* text=auto eol=lf
+*.html linguist-vendored
+package-lock.json linguist-generated  
+docs/**/*.html linguist-vendored
+src/*.ts linguist-detectable
+*.min.js linguist-generated
+
+*.woff binary
+build/* linguist-vendored
+# eof 379dd2e4
